@@ -1,0 +1,28 @@
+len()- mi dice la lunghezza della stringa
+con i classici segni di operazioni posso concatenare le stringhe
+-Per accedere ad un elemento specifico della stringa: stringa[posizione]
+N.B: Gli indici possibili dei caratteri di una stringa vanno da 0 a len()-1
+Per quanto riguarda invece gli indici negativi, si parte dal fondo a contare (quindi l'indice -1 è l'ultimo carattere)
+
+P  A  R  O  L  A 
+0  1  2  3  4  5
+-6 -5 -4 -3 -2 -1
+
+Funzioni di conversione
+se voglio iniziare a trattare un numero come un carattere uso str(nome variabile che ha il numero)
+mentre se voglio trasformare una stringa in un numero uso int(nome stringa) oppure float (nome stringa)
+N.B: Le stringhe sono IMMUTABILI 
+è possibile estrarre una porzione della stringa inserendo nome[compreso:escluso:step]
+se metto nome[compreso:len(nome)] sto scrivendo la stringa fino alla fine.
+nome[:] lo scrive tutto
+posso anche scriverli in ordine inverso inserendo indici negativi.
+
+Operazioni sulle stringhe:
+name.upper()- mi scrive la stringa in maiuscolo
+name.lower()- mi scrive la stringa in minuscolo
+stringa.replace(old,new)- sostituisce old con new nella stringa
+ci sono molti metodi sulla library string methods
+
+
+
+ 
