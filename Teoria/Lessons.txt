@@ -1,3 +1,5 @@
-L01a: Introduzione al corso --- 11.04
-L01b: The Python ecosystem  --- 12.04
-L01c: Informazioni pratiche --- 12.04
+L01a: Introduzione al corso  --- 11.04
+L01b: The Python ecosystem   --- 12.04
+L01c: Informazioni pratiche  --- 12.04
+L02:  Diagrammi di flusso    --- 26.04
+L03:  Primi passi con Python --- 26.04
