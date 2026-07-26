@@ -1,6 +1,7 @@
 Se inizio oggi 15 Giugno, potrei aver terminato il 26 Luglio, conoscendo Python!
-Info-2025-L01a: Introduzione al corso ----------14.06
-Info-2023-L01b: L'ecosistema Python ------------14.06
-Info-2025-L01c: Informazioni pratiche ----------22.06
-Info-2025-L02: Diagrammi di flusso -------------21.07
-Info-2025-L03: Primi passi con Python ----------25.07
+Info-2025-L01a: Introduzione al corso ---------------------------14.06
+Info-2023-L01b: L'ecosistema Python -----------------------------14.06
+Info-2025-L01c: Informazioni pratiche ---------------------------22.06
+Info-2025-L02: Diagrammi di flusso ------------------------------21.07
+Info-2025-L03: Primi passi con Python ---------------------------25.07
+Info-2024-L04: Variabili e valori. Numeri e espressioni ---------26.07
