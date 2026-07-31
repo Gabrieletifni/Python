@@ -6,3 +6,4 @@ Info-2025-L02: Diagrammi di flusso ---------------------------------------------
 Info-2025-L03: Primi passi con Python ---------------------------------------------------25.07
 Info-2024-L04: Variabili e valori. Numeri e espressioni ---------------------------------26.07
 Info-2025-L05: Funzioni di libreria standard. Esercizio sulle espressioni "Piastrelle" --26.07
+Info-2025-L06: Operazioni sulle stringhe ------------------------------------------------31.07
