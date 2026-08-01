@@ -12,12 +12,21 @@ Funzioni di conversione
 se voglio iniziare a trattare un numero come un carattere uso str(nome variabile che ha il numero)
 mentre se voglio trasformare una stringa in un numero uso int(nome stringa) oppure float (nome stringa)
 N.B: Le stringhe sono IMMUTABILI 
-è possibile estrarre una porzione della stringa inserendo nome[compreso:escluso:step]
+E' possibile estrarre una porzione della stringa inserendo nome[compreso:escluso:step]
 se metto nome[compreso:len(nome)] sto scrivendo la stringa fino alla fine.
 nome[:] lo scrive tutto
 posso anche scriverli in ordine inverso inserendo indici negativi.
+N.B: I caratteri di una stringa sono numerati partendo da 0
+nome[0] mi darà il primo elemento della stringa nome
+
+Indici negativi:
+indice -1 è l'ultimo carattere
+indice -len è il primo carattere
+
+
 
 Operazioni sulle stringhe:
+len() - mi dice la lunghezza della stringa
 name.upper()- mi scrive la stringa in maiuscolo
 name.lower()- mi scrive la stringa in minuscolo
 stringa.replace(old,new)- sostituisce old con new nella stringa
