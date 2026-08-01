@@ -1,0 +1,16 @@
+Esempio:
+1+2j mi indica un numero complesso
+per vedere tipo di valore scrivo type (1+2j) mi dirà complex
+Altro modo di creare numero immaginario
+w=complex(-2,3) mi crea un num complesso con parte reale -2 e immaginaria 3
+Posso usare le solite operazioni 
+
+- estrarre parte reale: n.real
+- esatrarre parte immaginaria n.imag 
+CON n che indica il nome del numero immaginario
+
+- complesso coniugato: n.conjugate()
+La libreria cmath ha varie sezioni sui numeri complessi
+Da cmath:
+ - per estrarre la fase: import cmath e poi cmath.phase(z) 
+ Questo comando mi dice la fase in radianti 
