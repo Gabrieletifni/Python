@@ -3,11 +3,12 @@
 di 1000 dollari e vi vengono accreditati interessi annuali al 5%. 
 
 """
-Saldo_iniziale=10000
-interesse=0.05
+Saldo_iniziale=21500
+interesse=0.010
 i=0
 saldototale=Saldo_iniziale
 while i<3:
     saldototale=saldototale+saldototale*interesse
-    print(f"Il saldo totale dopo il {i} anno vale {saldototale}")
     i+=1
+
+print(f"Il saldo totale dopo il {i} anno vale {saldototale:.2f}") #lo printo fuori dal while perchè voglio che mi stampi il saldo totale dopo il 3 anno e non dopo ogni anno

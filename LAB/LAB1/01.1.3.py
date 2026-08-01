@@ -9,7 +9,7 @@ fine del periodo; inoltre è noto il numero di giorni in cui vi siete recati al 
 """
 #calcolo la percentuale di uilizzo dell'automobile
 casa_lavoro=25 #km
-km_mese=2500
+km_mese=2500 #indicano i km totali percorsi in un mese
 giorni_lavoro=17
 
 km_lavoro=2*casa_lavoro*giorni_lavoro #2 perchè c'è andata e ritorno
