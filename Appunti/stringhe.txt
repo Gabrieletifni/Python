@@ -32,6 +32,9 @@ name.lower()- mi scrive la stringa in minuscolo
 stringa.replace(old,new)- sostituisce old con new nella stringa
 ci sono molti metodi sulla library string methods
 
-
+nome.index('a') : il metodo index mi indica la prima occorrenza della sottostringa (se non c'è mi da errore)
+nome.find('a') : fa la stessa cosa di index ma se non c'è la sottostringa mi riorna il valore -1
+nome.strip() : Mi elimina gli spazi prima e dopo la parola
+nome.replace(old,new) : mi ritorna la stessa stringa con new ovunque prima c'era old
 
  
