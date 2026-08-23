@@ -37,4 +37,27 @@ nome.find('a') : fa la stessa cosa di index ma se non c'è la sottostringa mi ri
 nome.strip() : Mi elimina gli spazi prima e dopo la parola
 nome.replace(old,new) : mi ritorna la stessa stringa con new ovunque prima c'era old
 
- 
+Come posso capire se 2 stringhe sono uguali:
+- se dico stringa1<stringa2 il codice guarda al codice unicode di ogni songolo carattere e fa il confronto
+  Se incontra le prime 2 lettere della stringa uguali va a confrontare i secondi caratteri delle stringhe e cosi via 
+  Appena incontra un carattere minore del corrispondente nell'altra stringa, mi dice se vero-falso 
+- Ma se io volessi confrontare sono una parte della stringa (esempio il nome di 2 persone ed ignorando il cognome):
+  In questo caso mi interessa sapere dove è lo spazio tra il nome e cognome
+  Posso usare metodo index che mi trova la prima occorrenza del carattere che cerco
+  Posizione_spazio=nome.index(' ')
+  primo_nome1=nome[:Posizione_spazio]
+  IDEM PER primo_nome2 e poi li confronto 
+  ATTENZIONE: Se la persona ha 2 nomi, questo metodo non funziona
+  ATTENZIONE: Se la persona ha solo il nome, questo metodo non funziona
+  Potrei anche usare il metodo find, che è uguale a index ma mi restituisce -1 se non c'è il carattere che cerco
+  if nome1.find(' ') == -1: # quindi non ha trovato lo spazio
+     print(nome1)
+  else:
+     print(nome1[0:nome1.find(' ')])
+
+Altro metodo per risolvere questa situazione: aggiungo al fondo del nome singolo lo spazio: nome1=nome1+' '
+ E poi applico la solita formula
+
+Altro caso: il nome inizia con uno spazio: posso usare strip() per 
+
+  

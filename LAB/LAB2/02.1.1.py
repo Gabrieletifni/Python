@@ -14,8 +14,8 @@ sequenza (ad esempio, max(10, 5) restituisce 10).
 
 
 """
-A=10
-B=7
+A=int(input("Inserire  il primo numero: "))
+B=int(input("Inserire  il secondo numero: "))
 somma=A+B
 differenza=A-B
 prodotto=A*B

@@ -5,7 +5,7 @@ calcoli la resistenza totale, utilizzando la legge di Ohm
 #R2 ed R3 sono in parallelo da figura esercizio
 #R1 è in serie al parallelo delle prime 2
 
-R1=10
+R1=2
 R2=4
 R3=5
 

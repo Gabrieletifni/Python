@@ -15,7 +15,7 @@ if lunghezza<6:
     
 if lunghezza>6: 
  primi_3=nome[:3]
- ultimi_3=nome[-3]+nome[-2]+nome[-1]
- puntini=lunghezza-6
+ ultimi_3=nome[-3:]
+ puntini=lunghezza-6 #perchè tolti 6 caratteri (i primi 3 e gli ultimi 3) tutto il resto saranno puntini
  nuovo=primi_3+(puntini*".")+ultimi_3
  print(nuovo)

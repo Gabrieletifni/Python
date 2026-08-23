@@ -9,3 +9,8 @@ Info-2025-L05: Funzioni di libreria standard. Esercizio sulle espressioni "Piast
 Info-2025-L06: Operazioni sulle stringhe ------------------------------------------------31.07
 import...more: Numeri complessi (cmath) -------------------------------------------------01.08
 Info-2025-L07: Input, formattazione e metodi delle stringhe -----------------------------02.08
+Info-2025-L08: Istruzioni condizionali. Esercizi. ---------------------------------------14.08 
+Info-2025-L09: Operatori booleani. Esercizio "Briscola" ---------------------------------22.08
+Info-2025-L10: Rappresentazione dei numeri ----------------------------------------------22.08
+Info-2025-L11: Cicli while --------------------------------------------------------------23.08
+Info-2025-L12: Esercizi su cicli while --------------------------------------------------23.08

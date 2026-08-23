@@ -7,11 +7,11 @@ funzioni predefinite del linguaggio Python.
 """
 
 matricola1="s246801"
-matricola2="s347470"
+matricola2="s309602"
 
 numero_matricola1=matricola1[1:]
 numero_matricola2=matricola2[1:]
 massimo=max(numero_matricola1,numero_matricola2)
 minimo=min(numero_matricola1,numero_matricola2)
 
-print(f"Le matricole in ordine crescente sono {minimo,massimo}")
+print(f"Le matricole in ordine crescente sono {'s'+minimo,'s'+massimo}")

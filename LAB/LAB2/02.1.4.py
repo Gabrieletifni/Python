@@ -17,8 +17,9 @@ chilometri all’anno.
 costo_nuovo=int(input("Inserisci costo auto nuova: "))
 km_annui=int(input("Inserisci il numero di km annui: "))
 carb=float(input("Inserire il costo del carburante: "))
-eff=int(input("Inserire l'efficienza in km al litro: "))
+eff=int(input("Inserire l'efficienza in km al litro: ")) #mi indica l'efficienza dell'auto
 rivendita=int(input("Inserisci il prezzo di rivendita: "))
 
-costo_totale=costo_nuovo+(km_annui/eff)*carb-rivendita
+costo_anno=km_annui*(carb/eff)
+costo_totale=costo_nuovo+5*costo_anno-rivendita
 print(f"Il costo totale di auto è: {costo_totale} €")

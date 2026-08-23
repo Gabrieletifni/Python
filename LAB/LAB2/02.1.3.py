@@ -8,4 +8,5 @@ VALORE=21963
 #lo converto in stringa???
 valore=str(VALORE)
 for i in range(len(valore)):
-    print(valore[i])
+    print(valore[i]) 
+    
